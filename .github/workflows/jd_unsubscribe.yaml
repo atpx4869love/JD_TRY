@@ -24,6 +24,7 @@ jobs:
                   node-version: "12.x"
             - name: 安装依赖包
               run: |
+                  npm install -g vue-cli
                   npm install
             - name: "运行try"
               run: |
